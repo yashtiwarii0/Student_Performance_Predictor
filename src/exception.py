@@ -1,9 +1,4 @@
 import sys
-import os
-
-# Add the project root directory to the Python path
-# This allows us to import modules from the 'src' directory
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.logger import logging
 
