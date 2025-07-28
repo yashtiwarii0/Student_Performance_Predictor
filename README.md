@@ -1,4 +1,4 @@
-Student Performance Predictor 🎓
+<h3>Student Performance Predictor 🎓</h3>
 Project Overview
 
 This repository contains a machine learning project designed to predict student academic performance—such as exam scores outcomes—based on features like study hours,etc.
