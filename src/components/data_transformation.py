@@ -68,6 +68,7 @@ class DataTransformation:
             test_arr = np.c_[input_features_test_arr, target_feature_test_df.to_numpy()]
             logging.info("Data transformation completed successfully.")
             logging.info(f"saved processing object.")
+            
             save_object(
                 file_path=self.transformation_config.preprocessor_obj_file_path,
                 obj=preprocessing_obj
